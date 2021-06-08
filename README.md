@@ -35,6 +35,7 @@
 <br>
 
 - dispatcher-servlet
+      - 
             - Servlet Container에서 HTTP프로토콜을 통해 들어오는 모든 요청을 프레젠테이션 계층의 제일앞에 둬서 중앙집중식으로 처리 <br>
             - Front Controller와 같은 개념<br>
             - 기존 -> url당 servlet을 생성하고 그에 맞는 Controller에게 요청을 보내주는 코드를 각각 따로 작성<br>
