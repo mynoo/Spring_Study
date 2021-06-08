@@ -1,0 +1,12 @@
+1. 설정 파일 : applicationContext.xml
+	컴포넌트를 스캐닝하기 위하여 component-scan 태그를 사용한다.
+	base-package 속성에는 스캔 영역의 패키지 경로를 명시하도록 한다.
+	
+	<context:component-scan base-package="annotation.di.*" />
+	
+2. Annotation 설정하기
+@Component
+	@Component을 사용하게 되면 스캔의 대상이 된다.
+	
+@Autowired 
+	자동으로 와이이링되는 CircleDao 항목도 @Component 를 명시해 줘야 된다.
