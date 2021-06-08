@@ -23,15 +23,13 @@ Annotation
 - 주석이라는 사전적의미가 있으며 컴파일 혹은 런타임에 해석된다
 - 메타데이터(실제데이터가 아닌 Data를 위한 데이터) 라고도 불리고 JDK5부터 등장
 
-@Component : 해당 클래스가 스프링에서 객체로 만들어서 관리하는 대상임을 명시하는 어노테이션
-@ComponentScan : @Component가 있는 클래스를 스프링이 읽어주도록 하는 어노테이션
-@Autowired : 객체를 자동으로 주입하는 어노테이션
-@Autowired(required=false)  // required를 false로 하여 주입 안받아도 예외처리 하지 않도록 함. // 기본값은 true
-
-@Qualifier : 사용할 의존 객체를 선택할 수 있도록 해준다.
+- @Component : 해당 클래스가 스프링에서 객체로 만들어서 관리하는 대상임을 명시하는 어노테이션
+- @ComponentScan : @Component가 있는 클래스를 스프링이 읽어주도록 하는 어노테이션
+- @Autowired : 객체를 자동으로 주입하는 어노테이션
+- @Autowired(required=false)  // required를 false로 하여 주입 안받아도 예외처리 하지 않도록 함. // 기본값은 true
+- @Qualifier : 사용할 의존 객체를 선택할 수 있도록 해준다.
 
 
 AOP
-
 - 핵심 기능과 공통 기능을 분리시켜놓고, 공통 기능을 필요로하는 핵심 기능들에서 사용하는 방식
 즉 핵심기능과 공통 기능을 분리시킨다.
