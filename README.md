@@ -45,6 +45,12 @@
 - Maven : - 자바용 프로젝트 관리도구로 Apache Ant의 대안으로 만들어졌다.<br>
           - 필요한 라이브러리를 특정 문서(pom.xml)에 정의해 놓으면 내가 사용할 라이브러리 뿐만 아니라 해당 라이브러리가 작동하는데에 필요한 다른 라이브러리들까지 관리하여 네트워크를             통해서 자동으로 다운받아 준다.
 
+- @RequestParam
+ - 표현 방식 : @RequestParam("가져올 데이터의 이름")[데이터타입][가져온데이터를 담을 변수]
+ - required=false : 키값이 존재하지 않아도 에러발생 X
+ - defaultValue : 값이 존재하지 않다면 넘어가는 default값 설정
+
+
 - @Valid 
   - @NotNull	Null 불가
   - @Null	Null만 입력 가능
