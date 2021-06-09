@@ -42,8 +42,30 @@
 
 
 ======2021년 06월 09일========
-- Maven : 자바용 프로젝트 관리도구로 Apache Ant의 대안으로 만들어졌다.
-
+- Maven : - 자바용 프로젝트 관리도구로 Apache Ant의 대안으로 만들어졌다.<br>
+          - 필요한 라이브러리를 특정 문서(pom.xml)에 정의해 놓으면 내가 사용할 라이브러리 뿐만 아니라 해당 라이브러리가 작동하는데에 필요한 다른 라이브러리들까지 관리하여 네트워크를             통해서 자동으로 다운받아 준다.
+<br>
+- @Valid 
+  - @NotNull	Null 불가
+  - @Null	Null만 입력 가능
+  - @NotEmpty	Null, 빈 문자열 불가
+  - @NotBlank	Null, 빈 문자열, 스페이스만 있는 문자열 불가
+  - @Size(min=,max=)	문자열, 배열등의 크기가 만족하는가?
+  - @Pattern(regex=)	정규식을 만족하는가?
+  - @Max(숫자)	지정 값 이하인가?
+  - @Min(숫자)	지정 값 이상인가
+  - @Future	현재 보다 미래인가?
+  - @Past	현재 보다 과거인가?
+  - @Positive	양수만 가능
+  - @PositiveOrZero	양수와 0만 가능
+  - @Negative	음수만 가능
+  - @NegativeOrZero	음수와 0만 가능
+  - @Email	이메일 형식만 가능
+  - @Digits(integer=, fraction = )	대상 수가 지정된 정수와 소수 자리 수 보다 작은가?
+  - @DecimalMax(value=) 	지정된 값(실수) 이하인가?
+  - @DecimalMin(value=)	지정된 값(실수) 이상인가?
+  - @AssertFalse	false 인가?
+  - @AssertTrue	true 인가?
 
 
 
