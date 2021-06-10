@@ -81,5 +81,22 @@
 		<url-pattern>*.hm</url-pattern>
 	</servlet-mapping>
 	
+	
+	<!-- album requests -->
+	<servlet>
+		<servlet-name>album</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/album-context.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>album</servlet-name>
+		<url-pattern>*.al</url-pattern>
+	</servlet-mapping>
+	
 
 </web-app>
