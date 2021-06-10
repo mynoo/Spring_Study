@@ -87,6 +87,8 @@
   - 표현방식 : '<'typeAlias alias="testVO" type="com.test.testVO"/'>'
     - alias = 별칭 / type = 클래스 경로
 
-
+- Mapper
+  - Mapping 파일에 기재된 SQL을 호출하기 위한 인터페이스
+  - MyBatis 3.0 이상부터 지원
 
 
