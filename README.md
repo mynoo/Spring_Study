@@ -74,9 +74,18 @@
   - @AssertTrue	true 인가?
 
 
+======2021년 06월 10일========
+- mybatis : 자바의 관계형 데이터베이스 프로그래밍을 좀 더 쉽게 할 수 있게 도와 주는 개발 프레임 워크로서 JDBC를 통해 데이터베이스에 엑세스하는 작업을 캡슐화하고 일반 SQL 쿼리, 저장 프로 시저 및 고급 매핑을 지원하며 모든 JDBC 코드 및 매개 변수의 중복작업을 제거 
 
+- xml 문서내 id 속성은 unique해야합니다.
+다른 xml 무서간에 동일한 id 속성이 있을 수 있으므로
+네임 스페이스 개념을 사용합니다.
 
-
+- typeAlias
+  - 보통 mybatis xml 파일에 쿼리문을 작성할 때 parameterType 과 resultType을 적어 파라미터의 자료형과 반환 타입의 자료형을 적는다.
+  - 이러한 타입명이 복잡한 경우 typeAlias를 이용하여 간결하게하고 오타를 줄일수 있다.
+  - 표현방식 : '<'typeAlias alias="testVO" type="com.test.testVO"/'>'
+    - alias = 별칭 / type = 클래스 경로
 
 
 
