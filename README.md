@@ -90,5 +90,5 @@
 - Mapper
   - Mapping 파일에 기재된 SQL을 호출하기 위한 인터페이스
   - MyBatis 3.0 이상부터 지원
-
+  - 간단한 XML Statements를 사용해서 java beans를 SQL statement에 맵핑시킨다.
 
