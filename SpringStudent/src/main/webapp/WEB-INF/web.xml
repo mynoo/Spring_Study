@@ -13,7 +13,7 @@
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
-
+	
 	<filter>
 		<filter-name>encodingFilter</filter-name>
 		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -31,7 +31,6 @@
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 
-
 	<!-- Processes application requests -->
 	<servlet>
 		<servlet-name>appServlet</servlet-name>
@@ -48,7 +47,7 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	
-	<!-- hello application requests -->
+	<!-- hello section -->
 	<servlet>
 		<servlet-name>hello</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -64,8 +63,23 @@
 		<url-pattern>*.he</url-pattern>
 	</servlet-mapping>
 	
+	<!-- toto section -->
+	<servlet>
+		<servlet-name>toto</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/toto-context.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
 	
-	<!-- human requests -->
+	<servlet-mapping>
+		<servlet-name>toto</servlet-name>
+		<url-pattern>*.to</url-pattern>
+	</servlet-mapping>
+	
+	<!-- human section -->
 	<servlet>
 		<servlet-name>human</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -81,8 +95,7 @@
 		<url-pattern>*.hm</url-pattern>
 	</servlet-mapping>
 	
-	
-	<!-- album requests -->
+	<!-- human section -->
 	<servlet>
 		<servlet-name>album</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -97,6 +110,5 @@
 		<servlet-name>album</servlet-name>
 		<url-pattern>*.al</url-pattern>
 	</servlet-mapping>
-	
 
 </web-app>

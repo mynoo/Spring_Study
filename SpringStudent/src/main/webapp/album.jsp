@@ -3,12 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 </head>
 <body>
-	<% 
-		String myContext = request.getContextPath() ;
-		response.sendRedirect(myContext +  "/list.al") ; %>
+<%
+	String contextPath = request.getContextPath();
+	String gotopage = contextPath + "/list.al";
+	response.sendRedirect(gotopage);
+%>
 </body>
 </html>

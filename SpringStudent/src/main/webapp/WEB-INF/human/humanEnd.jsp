@@ -33,10 +33,9 @@
 			<td>${human.job}</td>
 		</tr>
 		<tr>
-			<td>아이디</td>
+			<td>가입 일자</td>
 			<td>${human.regdate}</td>
 		</tr>
-	
 	</table>
 </body>
 </html>

@@ -7,10 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <%
 	String contextPath = request.getContextPath();
 	String gotopage = contextPath + "/mycaller.hm";
 	response.sendRedirect(gotopage);
 %>
+
 </body>
 </html>

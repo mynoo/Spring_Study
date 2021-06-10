@@ -28,14 +28,14 @@ public class Human {
 	@NotEmpty(message= "생일은 " + MUST_INPUT )
 	private String birth ; //생일	
 
-	@NotEmpty(message= "직업은 " + MUST_INPUT )
+	@Range(min=1, message="직업을 반드시 선택해 주세요.")
 	private String job ; //직업	
 	
 	@Pattern(regexp = "\\d{4}[-/]\\d{2}[-/]\\d{2}", message = "날짜는 yyyy/MM/dd 또는 yyyy-MM-dd 형식으로 입력해 주세요.")
 	private String regdate ;
 	
 	public Human() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public String getId() {
@@ -99,10 +99,6 @@ public class Human {
 		return "Human [id=" + id + ", name=" + name + ", hobby=" + hobby + ", special=" + special + ", birth=" + birth
 				+ ", job=" + job + ", regdate=" + regdate + "]";
 	}
-
-	
-
-	
 	
 	
 	
