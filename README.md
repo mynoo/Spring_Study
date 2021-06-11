@@ -96,7 +96,8 @@
  
  ***
 - Message tag
-     
+      
+      <spring:message/>
       ///////Message Tag를 사용하기 위해 가장 먼저 MessageSource를 등록해야 합니다.
       <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource" p:basename="ApplicationResources" />
      
