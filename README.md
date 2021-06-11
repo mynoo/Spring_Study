@@ -96,19 +96,20 @@
  
  ***
 - Message tag
+  - message tag를 이용하여 미리 저장된 단어나 문장을 가져와서 사용할 수 있다.
       
-      <spring:message/>
-      ///////Message Tag를 사용하기 위해 가장 먼저 MessageSource를 등록해야 합니다.
-      <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource" p:basename="ApplicationResources" />
-     
-      ///////jsp에서 taglib를 등록
-      <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-      
-      ///////Property File
-      MSG.HTML.MYCODE=내코드
-      MSG.HTML.OUR_CODE=우리코드
-      
-      ///////JSP상의 작성법 <spring:message code="MSG.HTML.MYCODE"/>
+        <spring:message/>
+        ///////Message Tag를 사용하기 위해 가장 먼저 MessageSource를 등록해야 합니다.
+        <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource" p:basename="ApplicationResources" />
+
+        ///////jsp에서 taglib를 등록
+        <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+
+        ///////Property File
+        MSG.HTML.MYCODE=내코드
+        MSG.HTML.OUR_CODE=우리코드
+
+        ///////JSP상의 작성법 <spring:message code="MSG.HTML.MYCODE"/>
 
 
 
