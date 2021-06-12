@@ -43,7 +43,7 @@
 		 where id = #{id}
 	</select>
 	
-	<update id="update" parameterType="MyAlbum">
+	<update id="updateData" parameterType="MyAlbum">
 		update albums set
 		albumname = #{albumname}, song = #{song},
 		lyricist = #{lyricist}, songwriter = #{songwriter},

@@ -23,10 +23,10 @@ public class AlbumDao {
 	SqlSessionTemplate abcd;
 	
 	// 앨범 정보 저장하기.
-		public void insert(Album album) {
-			System.out.println(this.getClass() + "insert 들어옴");
-			this.abcd.insert(namespace + ".insert", album);
-		}
+	public void insert(Album album) {
+		System.out.println(this.getClass() + "insert 들어옴");
+		this.abcd.insert(namespace + ".insert", album);
+	}
 	
 	
 	public int GetTotalCount(Map<String, String> map) {
@@ -47,18 +47,37 @@ public class AlbumDao {
 		return lists;
 	}
 	
-	
-	// 체크 박스, 라디오 버튼, 콤보 박스들의 내용을 가져 옵니다.
-		public List<CheckBean> GetList(String module, String field) {		
-			// module : 모듈 이름(회원_member, 상품_product, 앨범_album)
-			// field : 테이블의 특정 컬럼 이름을 지정합니다.
-			Map<String, String> map = new HashMap<String, String>();
-			map.put("module", module) ;
-			map.put("field", field) ;
-			
-			return this.abcd.selectList(namespace + ".GetList", map) ;
+	// 앨범 정보 삭제하기. xml 파일 대신, Mapper Interface를 이용하는 방식
+		public void delete(int id) {
+			System.out.println(this.getClass() + ".delete 들어옴");
+			this.abcd.delete(namespace + ".delete", id);
 		}
 	
+	
+	
+	// 체크 박스, 라디오 버튼, 콤보 박스들의 내용을 가져 옵니다.
+	public List<CheckBean> GetList(String module, String field) {		
+		// module : 모듈 이름(회원_member, 상품_product, 앨범_album)
+		// field : 테이블의 특정 컬럼 이름을 지정합니다.
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("module", module) ;
+		map.put("field", field) ;
+			
+		return this.abcd.selectList(namespace + ".GetList", map) ;
+	}
+		
+		
+	// 앨범 한 개의 정보 얻어오기
+	public Album getAlbumById(int id) {
+		System.out.println(this.getClass() + ".getAlbumById 들어옴");
+		return this.abcd.selectOne(namespace + ".getAlbumById", id);
+	}
+
+	// 앨범 정보 수정하기
+	public void update(Album album) {
+		System.out.println(this.getClass() + ".update() 메소드 들어옴");
+		this.abcd.update(namespace + ".updateData", album);
+	}
 	
 	
 	
