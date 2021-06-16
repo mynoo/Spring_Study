@@ -1,6 +1,9 @@
 # Spring_Study
 ***
-- 이클립스 Spring Tool Suite(STS) 설치
+- 이클립스 Spring Tool Suite(STS) 설치 (Legacy Project 등 이전 버전의 부가기능을 사용하고자 할 때)
+  - pring Tools 3 Add-On for Spring Tools 4 3.9.14(Spring framework 설치)
+---
+
 - 강한결합, 약한결합 (의존성)
 - MVC 패턴
  
