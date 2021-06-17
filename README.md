@@ -28,6 +28,10 @@
        - @Autowired : 객체를 자동으로 주입하는 어노테이션
        - @Autowired(required=false)  // required를 false로 하여 주입 안받아도 예외처리 하지 않도록 함. // 기본값은 true
        - @Qualifier : 사용할 의존 객체를 선택할 수 있도록 해준다.
+       - @RequestParam
+           - 표현 방식 : @RequestParam("가져올 데이터의 이름")[데이터타입][가져온데이터를 담을 변수]
+           - required=false : 키값이 존재하지 않아도 에러발생 X
+           - defaultValue : 값이 존재하지 않다면 넘어가는 default값 설정
 
 ***
 
@@ -47,13 +51,6 @@
 - Maven : - 자바용 프로젝트 관리도구로 Apache Ant의 대안으로 만들어졌다.<br>
           - 필요한 라이브러리를 특정 문서(pom.xml)에 정의해 놓으면 내가 사용할 라이브러리 뿐만 아니라 해당 라이브러리가 작동하는데에 필요한 다른 라이브러리들까지 관리하여 네트워크를             통해서 자동으로 다운받아 준다.
          
-***
-
-- @RequestParam
- - 표현 방식 : @RequestParam("가져올 데이터의 이름")[데이터타입][가져온데이터를 담을 변수]
- - required=false : 키값이 존재하지 않아도 에러발생 X
- - defaultValue : 값이 존재하지 않다면 넘어가는 default값 설정
-
 ***
 
 - @Valid 
@@ -114,6 +111,14 @@
 
         ///////JSP상의 작성법 <spring:message code="MSG.HTML.MYCODE"/>
 
+***
+- ModelAndView
+  - 데이터를 전송시킬 수 있는 리턴 타입
+    - setViewName : 어떤 페이지를 보여줄 것인지
+    - addObject : key와 value를 담아 보낼 수 있는 메서드
 
+- Model, ModelMap Vs ModelAndView 차이점
+  - Model, ModelMap -> 데이터만 저장한다.
+  - ModelAndView -> 데이터와 이동하고자 하는 View Page를 같이 저장한다
 
 
