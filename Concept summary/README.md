@@ -151,4 +151,9 @@
       - ModelAndView -> 데이터와 이동하고자 하는 View Page를 같이 저장한다
       
 ***
+#### pom.xml
+    - POM(Project Object Model)을 설정하는 부분으로 프로젝트 내 빌드 옵션을 설정하는 부분이다.
+    - 프로젝트에 필요한 모든 라이브러리를 관리
+    
+    
 
