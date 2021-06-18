@@ -4,7 +4,7 @@
   - pring Tools 3 Add-On for Spring Tools 4 3.9.14(Spring framework 설치)
 ---
 
-## 스프링(Spring)이란
+## 스프링 프레임워크(Spring Framework)이란
 POJO 프레임워크 중 하나이며, 자바 애플리케이션 개발을 위한 포괄적인 인트라 스트럭처를 제공하는 자바 플랫폼이다. 
 
 ***
@@ -90,11 +90,11 @@ POJO 프레임워크 중 하나이며, 자바 애플리케이션 개발을 위�
       즉 핵심기능과 공통 기능을 분리시킨다.
 ***
 
-- dispatcher-servlet <br>
-      - Servlet Container에서 HTTP프로토콜을 통해 들어오는 모든 요청을 프레젠테이션 계층의 제일앞에 둬서 중앙집중식으로 처리 <br>
-            - Front Controller와 같은 개념<br>
-            - 기존 -> url당 servlet을 생성하고 그에 맞는 Controller에게 요청을 보내주는 코드를 각각 따로 작성<br>
-            - dispatcher servlet을 통하여 모든 요청을 한곳에서 받아서 처리<br>
+#### dispatcher-servlet <br>
+      - Servlet Container에서 HTTP프로토콜을 통해 들어오는 모든 요청을 프레젠테이션 계층의 제일앞에 둬서 중앙집중식으로 처리
+      - Front Controller와 같은 개념
+      - 기존 -> url당 servlet을 생성하고 그에 맞는 Controller에게 요청을 보내주는 코드를 각각 따로 작성
+      - dispatcher servlet을 통하여 모든 요청을 한곳에서 받아서 처리
 
 ***
 
