@@ -10,35 +10,20 @@
 ***
 
 
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/roshanlam/ReadMeTemplate/">
     <img src="./logo.png" alt="Logo" width="80" height="80">
-  </a>
+
 
   <h3 align="center">Read Me Template</h3>
 
   <p align="center">
     A Read Me template for your projects!
-    <br />
-    <a href="https://github.com/roshanlam/ReadMeTemplate/"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/roshanlam/ReadMeTemplate/">View Demo</a>
-    ·
-    <a href="https://github.com/roshanlam/ReadMeTemplate/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/roshanlam/ReadMeTemplate/issues">Request Feature</a>
-    ·
-    <a href="https://github.com/roshanlam/ReadMeTemplate/pulls">Send a Pull Request</a>
+
+
   </p>
 </p>
 
@@ -60,9 +45,9 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Bootstrap]
+* [JQuery]
+* [Laravel]
 
 
 
