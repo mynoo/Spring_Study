@@ -29,13 +29,9 @@ Windows 10, Spring Tool suite4, JavaSE-1.6(zulu15)
 <!-- CONTRIBUTING -->
 ## 📄 파일 구성
 
-- 
+- SpringStudent - 스프링을 이용한 간단한 웹 페이지 구현
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- Concept summary - Spring boot를 공부하면서 몰랐던 점과 요약정리에 대한 Summary 정리
 
 
 
