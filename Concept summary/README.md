@@ -1,4 +1,9 @@
-# Spring_Study
+
+<div align="center" id="top">
+<img height="270px" width="270px" src="./logo.png"><br>
+  <h1>📃개념 및 궁금증 정리</h1>
+</div>
+
 ***
 - 이클립스 Spring Tool Suite(STS) 설치 (Legacy Project 등 이전 버전의 부가기능을 사용하고자 할 때)
   - pring Tools 3 Add-On for Spring Tools 4 3.9.14(Spring framework 설치)
