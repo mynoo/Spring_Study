@@ -35,30 +35,6 @@ Windows 10, Spring Tool suite4, JavaSE-1.6(zulu15)
 
 
 
-<!-- LICENSE -->
-## 📝 License
-Describe your License for your project. 
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## 📫 Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* blah blah blah....
-
 
 
 
