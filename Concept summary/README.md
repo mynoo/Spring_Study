@@ -73,9 +73,9 @@
   - required=false : 키값이 존재하지 않아도 에러발생 X
   - defaultValue : 값이 존재하지 않다면 넘어가는 default값 설정
 - @Valid 
-    - @NotNull	Null 불가
+    - @NotNull	Null 불가(int는 안됨 -> 해결방법: Integer, double, float)
     - @Null	Null만 입력 가능
-    - @NotEmpty	Null, 빈 문자열 불가
+    - @NotEmpty	Null, 빈 문자열 불가(int는 안됨 -> 해결방법: Integer, double, float)
     - @NotBlank	Null, 빈 문자열, 스페이스만 있는 문자열 불가
     - @Size(min=,max=)	문자열, 배열등의 크기가 만족하는가?
     - @Pattern(regex=)	정규식을 만족하는가?
