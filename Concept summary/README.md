@@ -169,9 +169,9 @@
 ## redirect와 forward방식의 차
 #### redirect는 처음 요청한 URL과 리다이렉트가 일어난 후의 URL이 다르게 변경된다는 점이다. forward는 요청 URL로 동작된 후에도 같다.  
 
-<img height="270px" width="270px" src="./forward.png"><br>
+<img height="270px" width="450px" src="./forward.png"><br>
 
-<img height="270px" width="270px" src="./redirect.png"><br>
+<img height="270px" width="450px" src="./redirect.png"><br>
 
 
 
