@@ -62,7 +62,10 @@
 <div align="center" id="top">
   <h1> ✏️어노테이션(Annotation)</h1>
 </div> 
-
+- @Modelattribute
+    - @Modelattribute를 사용하면 @RequestParam으로 파라미터를 1:1로 받지 않고 한꺼번에 받을수 있다는 장점이 있다.
+    - 해당 클래스의 각각 해당변수의 setter를 통해서 해당 멤버 변수로 binding된다.
+    - 해당 클래에 setter가 반드시 존재햐아한다. 
 - @Component : 해당 클래스가 스프링에서 객체로 만들어서 관리하는 대상임을 명시하는 어노테이션
 - @ComponentScan : @Component가 있는 클래스를 스프링이 읽어주도록 하는 어노테이션
 - @Autowired : 객체를 자동으로 주입하는 어노테이션
