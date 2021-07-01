@@ -62,6 +62,7 @@
 <div align="center" id="top">
   <h1> ✏️어노테이션(Annotation)</h1>
 </div> 
+
 - @Modelattribute
     - @Modelattribute를 사용하면 @RequestParam으로 파라미터를 1:1로 받지 않고 한꺼번에 받을수 있다는 장점이 있다.
     - 해당 클래스의 각각 해당변수의 setter를 통해서 해당 멤버 변수로 binding된다.
