@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="./spring logo.png" alt="Logo" width="300" height="120">
+    <img src="./spring logo.png" alt="Logo" width="350" height="170">
 
 
   <h3 align="center">조민우의 Spring boot</h3>
