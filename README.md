@@ -8,10 +8,10 @@
     <img src="./spring logo.png" alt="Logo" width="350" height="170">
 
 
-  <h3 align="center">조민우의 Spring boot</h3>
+  <h3 align="center">조민우의 Spring FrameWork</h3>
 
   <p align="center">
-    더욱 수월한 웹 개발을 위한 Spring boot!
+    더욱 수월한 웹 개발을 위한 Spring FrameWork!
 
 
   </p>
