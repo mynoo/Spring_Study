@@ -189,3 +189,15 @@ Hibernate나 JAP(Java Persistence Api)처럼 새로운 DB프로그래밍 패러�
 (ContentType,Content Encoding 데이터를 확인할 필요가 있다.)
 - 500 : 서버 내부 오류는 웹 서버가 요청사항을 수행할 수 없을 경우에 발생함
 - 505 : HTTP Version Not Supported
+
+
+
+## 하나의 Form에 여러개의 submit
+
+```
+<form method="post" name="form">
+    <input type="submit" value="조회" onclick="javascript: form.action='<%=request.getContextPath()%>/update.cd';"/>
+    <input type="submit" value="조회" onclick="javascript: form.action='<%=request.getContextPath()%>/delete.cd';"/>
+</form>
+```
+- 참고 주소 : https://kutar37.tistory.com/entry/%ED%95%9C%EA%B0%9C%EC%9D%98-Form%EC%97%90%EC%84%9C-%EC%97%AC%EB%9F%AC%EA%B0%9C-Submit-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
