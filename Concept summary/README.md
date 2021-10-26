@@ -97,7 +97,9 @@
     - @DecimalMin(value=)	지정된 값(실수) 이상인가?
     - @AssertFalse	false 인가?
     - @AssertTrue	true 인가?
-
+    - 
+- @SuppressWarnings : 컴파일시 컴파일 경고를 사용하지 않도록 설정할 수 있다.
+  - 속성 : https://taesikman1.tistory.com/2 <해당 페이지 참고>
 ***
 
 ## AOP
